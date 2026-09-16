@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_widget_layout/food_app/pages/FoodHome.dart';
+import 'package:flutter_widget_layout/food_app/pages/food_home.dart';
 
 class MyGetStarted extends StatelessWidget {
   const MyGetStarted({super.key});
@@ -7,6 +7,7 @@ class MyGetStarted extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(backgroundColor: Colors.green),
       body: SafeArea(
         child: Column(
           children: [
