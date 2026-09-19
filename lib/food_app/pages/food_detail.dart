@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_widget_layout/food_app/widgets/Product_item.dart';
+import 'package:flutter_widget_layout/food_app/widgets/product_item.dart';
 
 class FoodDetail extends StatelessWidget {
   const FoodDetail({super.key});
